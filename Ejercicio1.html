@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type:="text/css"/>
+    <title>Ejercicio 1</title>
 </head>
-
 <body>
-<div class="container"
-    <h1 class0"title has-text-centered">Ejercicio 1</h1>
-        <div id="resultadoDiv">
-            <p>
-                
-
-
-            </p>
-
-
-
-        </div>
-    
+    <div id="titulo">
+        <header>
+            <h1>
+                Ejercicio 1
+                <h2>Kennier Armando Lujan</h2>
+            </h1>
+        </header>
+    </div>
+    <div>
+        <form>
+            <div id="textoNombre">
+                <h3>
+                    Ingrese el nombre completo del estudiante.
+                </h3>
+            </div>
+            <input type="text" id="nombreEstudiante" placeholder="Nombre completo">
+            <div id="textoMaterias">
+                <h3>
+                    Ingrese el número de materias a matricular.
+                </h3>
+            </div>
+            <div id="input-form">
+                <input type="number" placeholder="Número de materias" onchange="generateInputs(document.getElementById('input-form'), this)" required><br>
+            </div>
+            <input type="button" id="button" value="Enviar">
+            </script>
+        </form>
+    </div>
 </body>
+<script src="Ejercicio1.js"></script>
 </html>

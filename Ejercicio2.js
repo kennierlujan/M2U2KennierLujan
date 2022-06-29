@@ -7,7 +7,8 @@ const
     parrafoMayor = document.getElementById('resultadoMayor'),
     parrafoMenor = document.getElementById('resultadoMenor'),
     
-    
+
+        
         boton.addEventListerner('click', ()=>{
             if((a.value == b.value) || (a.value == c.value) || (a.value == d.value)){
                 alert('No se pueden ingresar números repetidos')
